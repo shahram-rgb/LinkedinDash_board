@@ -9,8 +9,8 @@ st.set_page_config(
     page_icon="💼",
     layout="wide"
 )
-
-jobs = pd.read_csv("postings.csv")
+POSTINGS_URL = "https://drive.google.com/file/d/1RbO2pvtmbPbxww87fOYjFaHZwoa9K8nV/view?usp=sharing"
+jobs = pd.read_csv("POSTINGS_URL")
 companies = pd.read_csv("companies.csv")
 
 st.markdown("""
