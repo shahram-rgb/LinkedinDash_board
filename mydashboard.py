@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide"
 )
 import pandas as pd
-jobs = pd.read_csv("postings_small.csv")
+jobs = pd.read_csv("postings_small.csv", on_bad_lines="skip")
 companies = pd.read_csv("companies.csv")
 
 st.markdown("""
