@@ -14,7 +14,7 @@ jobs = pd.read_csv(
     "https://drive.google.com/uc?export=download&id=1RbO2pvtmbPbxww87fOYjFaHZwoa9K8nV"
 )
 companies = pd.read_csv("companies.csv")
-
+st.write("Jobs Columns:", jobs.columns.tolist())
 st.markdown("""
 <style>
 
